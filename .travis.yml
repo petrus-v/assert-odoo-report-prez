@@ -1,7 +1,7 @@
 language: generic # don't install any environment
 
 before_install:
- - openssl aes-256-cbc -K $encrypted_1fc90f464345_key -iv $encrypted_1fc90f464345_iv -in ci/id_rsa.enc -out ~/.ssh/id_rsa -d
+ - openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_key -in ci/id_rsa.enc -out ~/.ssh/id_rsa -d
  - chmod 600 ~/.ssh/id_rsa
 script:
  - bash ./ci/build.sh
