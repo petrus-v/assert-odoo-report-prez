@@ -76,13 +76,14 @@ name: requirements
 
 ## Requirements
 
-* [pdftk]() / [imagemagick]()
+* [pdftk](https://www.pdflabs.com/docs/pdftk-man-page/) (GPL)
+* [imagemagick](www.imagemagick.org) (Apache 2.0)
 * [anybox.testing.openerp](
   https://bitbucket.org/anybox/anybox.testing.openerp/branch/assertReport
   "Assert report") branch *assertReport*
 * Qweb:
     * wkhtml2pdf
-    * [patch to render report offline](
+    * [patch to render report "offline"](
       https://github.com/OCA/OCB/pulls/550 
       "PR to generate Qweb report without server")
 * Aeroo:
