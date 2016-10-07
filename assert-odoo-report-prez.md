@@ -130,7 +130,7 @@ name: requirements
 * Qweb:
     * wkhtml2pdf
     * [patch to render report "offline"](
-      https://github.com/OCA/OCB/pulls/550 
+      https://github.com/OCA/OCB/pull/550 
       "PR to generate Qweb report without server")
 * Aeroo:
     * libreoffice server to convert odt/ods -> .pdf
